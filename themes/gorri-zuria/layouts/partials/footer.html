@@ -1,0 +1,40 @@
+  <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>{{ now.Year }} - {{ $.Params.copyright }} <svg width="18px" height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"><path style="fill:#ff6643" d="M480.942 84.077c-41.41-41.41-108.551-41.41-149.96 0L256 159.058l-74.981-74.981c-41.411-41.41-108.551-41.41-149.96 0-41.411 41.411-41.411 108.551 0 149.962L256 458.98l224.942-224.942c41.411-41.41 41.411-108.55 0-149.961z"/><path style="fill:#ff4f19" d="M480.942 84.077c-41.41-41.41-108.549-41.41-149.96 0L256 159.058V458.98l224.942-224.942c41.411-41.41 41.411-108.55 0-149.961z"/></svg></p>
+        <p>{{ $.Params.frase_txetxu }}</p>
+      </div>
+    </footer>
+
+    <button onclick="ToTopGZ()" id="TopGorriZuria"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ "vendor/jquery/jquery_custom.min.js" | absURL }}"></script>
+    <script src="{{ "vendor/bootstrap/js/bootstrap.bundle.min.js" | absURL }}"></script>
+    
+    <!-- Custom scripts for this template -->
+    <script src="{{ "js/gorrizuria_code.js" | absURL}}"></script>
+    <script src="{{ "js/mailgo.dark.custom.min.js" | absURL}}"></script>
+
+    <script>
+      // BACK TO TOP BUTTON - custom Gorri-Zuria
+      var botonScrollToTopGorriZuria = document.getElementById("TopGorriZuria");
+
+      // Función que captura la función de scroll para mostrar/ocultar boton
+      window.onscroll = function() {scrollFunction()};
+      // Funcion que hace el efecto smooth suave cuando se hace click sobre el boton
+      window.click = function() {ToTopGZ()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 578 || document.documentElement.scrollTop > 578) {
+          botonScrollToTopGorriZuria.style.display = "block";
+        } else {
+          botonScrollToTopGorriZuria.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document animate slowly
+      function ToTopGZ() {
+        $('html, body').animate({scrollTop:0}, 'slow');
+      }
+    </script>

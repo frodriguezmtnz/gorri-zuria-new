@@ -1,0 +1,14 @@
+baseURL = "https://gorri-zuria.es/"
+languageCode = "es-es"
+title = "Peña Gorri Zuria - Athletic Bilbao (Villanueva Cañada - Madrid)"
+theme = "gorri-zuria"
+#googleAnalytics = ""
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    # Provide some metadata for search and indexing services
+    description = "Web oficial de Peña Gorri Zuria - Athletic Club Bilbao (Villanueva Cañada - Madrid)"
+
+[Author]
+    name = "Felipe RM"
+    email = "gorrizuriaathletic@gmail.com"

@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="aupa">
+        {{- partial "header.html" . -}}
+        {{- block "main" . }}{{- end }}
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{ $description := $.Param "description" }}
+{{- with $description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ $author := .Params.author.name | default .Site.Author.name }}
+<meta name="author" content="{{ $author }}">
+
+<title>{{- $.Param "title" -}}</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/logo/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/logo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/logo/favicon-16x16.png">
+<meta name="theme-color" content="#c90b2c">
+
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+{{- with .Site.Params.googlesiteverification }}
+<meta name="google-site-verification" content="{{ . }}">{{ end }}
+{{- with .Site.Params.msvalidate }}
+<meta name="msvalidate.01" content="{{ . }}">{{ end }}
+{{ hugo.Generator }}
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+
+<!-- Cache busting with fingerprint -->
+{{ $style_bootstrap := resources.Get "vendor/bootstrap/css/bootstrap.min.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style_bootstrap.Permalink }}" integrity="{{ $style_bootstrap.Data.Integrity }}">
+{{ $style_gorrizuria := resources.Get "css/gorrizuria_new.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style_gorrizuria.Permalink }}" integrity="{{ $style_gorrizuria.Data.Integrity }}">
+
+<link href="{{ "vendor/font-awesome/css/font-awesome_custom.min.css" | absURL }}" rel="stylesheet" type="text/css">
+
+
+<!-- TODO: Añadir sistema de analítica???  -->
+{{ template "_internal/google_analytics_async.html" . }}

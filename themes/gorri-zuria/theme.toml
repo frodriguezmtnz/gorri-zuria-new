@@ -1,0 +1,15 @@
+# Template for website Gorri-Zuria (by HUGO CMS)
+# ----------------------------------------------
+
+name = "GorriZuria"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "Gorri Zuria is a custom theme for Hugo, multi-section single page, soccer and love about Athletic Club Bilbao."
+homepage = "xxxx"
+tags = ["minimal", "simple", "landing-page", "one-page", "responsive", "accessible", "soccer", "athletic bilbao"]
+features = []
+min_version = "0.40.1"
+
+[author]
+  name = "Felipe R."
+  homepage = "https://gorri-zuria.es/"
