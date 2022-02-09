@@ -1,5 +1,4 @@
-#baseURL = "https://gorri-zuria.es/"
-baseURL = "https://gorri-zuria.netlify.app/"
+baseURL = "https://gorri-zuria.es/"
 languageCode = "es-es"
 title = "Peña Gorri Zuria - Athletic Bilbao (Villanueva Cañada - Madrid)"
 theme = "gorri-zuria"

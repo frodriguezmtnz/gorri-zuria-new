@@ -2,7 +2,7 @@
 
 Using this combo: **[Hugo CMS](https://github.com/gohugoio/hugo) + custom theme one-page + github + netlify** :star:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0497bbba-6424-4317-83ea-932fefdb490a/deploy-status)](https://app.netlify.com/sites/docs-adtopy/deploys) ![GitHub repo size](https://img.shields.io/github/repo-size/frodriguezsmartclip/docs-adtopy) ![GitHub](https://img.shields.io/github/license/frodriguezsmartclip/docs-adtopy) ![Netlify](https://img.shields.io/netlify/0497bbba-6424-4317-83ea-932fefdb490a?label=netlify%20workflow) ![Website](https://img.shields.io/website?label=status%20web%20docs-adtopy&url=https%3A%2F%2Fdocs-adtopy.netlify.com%2F)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0497bbba-6424-4317-83ea-932fefdb490a/deploy-status)](https://app.netlify.com/sites/gorri-zuria/deploys) ![GitHub repo size](https://img.shields.io/github/repo-size/frodriguezmtnz/gorri-zuria-new) ![GitHub](https://img.shields.io/github/license/frodriguezmtnz/gorri-zuria-new) ![Netlify](https://img.shields.io/netlify/0497bbba-6424-4317-83ea-932fefdb490a?label=netlify%20workflow) ![Website](https://img.shields.io/website?label=status%20web%2GZy&url=https%3A%2F%2Fgorri-zuria.netlify.com%2F)
 
 ## Step 1
 
@@ -23,14 +23,15 @@ We recommend using [Netlify](https://www.netlify.com/) as a particularly simple 
 Follow the instructions in [Host on Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) to set up a Netlify account (if you don't have one already) and authorize access to your GitHub or other Git provider account. Once you're logged in:
 
 1. Click **New site from Git**.
-1. Click your chosen Git provider, then choose your site repo from your list of repos.
-1. In the **Deploy settings** page:
-   1. For your **Build command**, specify `cd themes/docsy && git submodule update -f --init && cd ../.. && hugo`. You need to specify this rather than just `hugo` so that Netlify can use the theme's submodules.
-   1. Click **Show advanced**.
-   1. In the **Advanced build settings** section, click **New variable**.
-   1. Specify `HUGO_VERSION` as the **Key** for the new variable, and `0.89 extended` or later as its **Value**.
-1. Click **Deploy site**. :white_check_mark:
+2. Click your chosen Git provider, then choose your site repo from your list of repos.
+3. In the **Deploy settings** page:
+   1. For your **Build command**, specify `hugo`. **Publish directory** `public`.
+   2. **Build Image**: `Ubuntu Focal 20.04 (default)`.
+   3. Click **Show advanced**.
+   4. In the **Advanced build settings** section, click **New variable**.
+   5. Specify `HUGO_VERSION` as the **Key** for the new variable, and `0.89.0` or later as its **Value**. Also, you can add a custom file in root directory named as: `netlify.toml` with these variables.
+4. Click **Deploy site**. :white_check_mark:
 
-If you have an existing deployment you can view and update the relevant information by selecting the site from your list of sites in Netlify, then clicking **Site settings** - **Build and deploy**. Ensure that **Ubuntu Xenial 16.04** is selected in the **Build image selection** section - if you're creating a new deployment this is used by default. You need to use this image to run the extended version of Hugo.
+5. Custom domain management to Netlify, change DNS settings and wait the propagation (24h). Plus, SSL certificate activated when DNS are propagated!
 
 :link: The website URL is accessible at: [Peña Athletic Bilbao - Gorri-Zuria Madrid](https://gorri-zuria.es/) :soccer:
