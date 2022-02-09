@@ -2,12 +2,6 @@
 
 Using this combo: **[Hugo CMS](https://github.com/gohugoio/hugo) + custom theme one-page + github + netlify** :star:
 
-***
-
-****
-NOTA: CAMBIAR URLS DE SUCCESS, etc de netlify passig tests, etc https://img.shields.io
-****
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0497bbba-6424-4317-83ea-932fefdb490a/deploy-status)](https://app.netlify.com/sites/docs-adtopy/deploys) ![GitHub repo size](https://img.shields.io/github/repo-size/frodriguezsmartclip/docs-adtopy) ![GitHub](https://img.shields.io/github/license/frodriguezsmartclip/docs-adtopy) ![Netlify](https://img.shields.io/netlify/0497bbba-6424-4317-83ea-932fefdb490a?label=netlify%20workflow) ![Website](https://img.shields.io/website?label=status%20web%20docs-adtopy&url=https%3A%2F%2Fdocs-adtopy.netlify.com%2F)
 
 ## Step 1
