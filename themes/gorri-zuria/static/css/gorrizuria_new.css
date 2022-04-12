@@ -482,7 +482,7 @@ a.svg-hover-discord:hover, .svg-hover-discord:focus {
 }
 
 /* Medidas Logo Discord para W3C */
-img.logo-discord {
+.logo-discord {
   width: 357px;
   height: 98px;
 }
