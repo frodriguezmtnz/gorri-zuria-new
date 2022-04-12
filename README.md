@@ -2,7 +2,7 @@
 
 Using this combo: **[Hugo CMS](https://github.com/gohugoio/hugo) + custom theme one-page + github + netlify** :star:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0497bbba-6424-4317-83ea-932fefdb490a/deploy-status)](https://app.netlify.com/sites/gorri-zuria/deploys) ![GitHub repo size](https://img.shields.io/github/repo-size/frodriguezmtnz/gorri-zuria-new) ![GitHub](https://img.shields.io/github/license/frodriguezmtnz/gorri-zuria-new) ![Netlify](https://img.shields.io/netlify/0497bbba-6424-4317-83ea-932fefdb490a?label=netlify%20workflow) ![Website](https://img.shields.io/website?label=status%20web%20GZ&url=https%3A%2F%2Fgorri-zuria.es%2F)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0497bbba-6424-4317-83ea-932fefdb490a/deploy-status)](https://app.netlify.com/sites/gorri-zuria/deploys) ![GitHub repo size](https://img.shields.io/github/repo-size/frodriguezmtnz/gorri-zuria-new) ![GitHub](https://img.shields.io/github/license/frodriguezmtnz/gorri-zuria-new) ![Netlify](https://img.shields.io/netlify/0497bbba-6424-4317-83ea-932fefdb490a?label=netlify%20workflow) ![Website](https://img.shields.io/website?label=status%20web%20GZ&url=https%3A%2F%2Fgorri-zuria.es%2F) ![GitHub last commit](https://img.shields.io/github/last-commit/frodriguezmtnz/gorri-zuria-new)
 
 ## Step 1
 
