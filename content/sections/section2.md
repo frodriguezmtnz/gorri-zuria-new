@@ -17,6 +17,6 @@ Puedes estar en contacto con la Peña Gorri-Zuria en las siguientes redes social
 
 También puedes seguirnos en Discord, con más funcionalidades, seguimiento de noticias, podcasts, resultados de fútbol, partidos e interacción con todos los aficinados del Athletic:
 
-    {{< socialhandles >}}
-        {{< discord >}}
-    {{< /socialhandles >}}
+{{< socialhandles >}}
+    {{< discord >}}
+{{< /socialhandles >}}

@@ -94,6 +94,10 @@ a:focus, a:hover {
   transition: background 0.2s ease-in-out;
   padding: 0 10px;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  align-content: flex-start;  
+  justify-content: center;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
