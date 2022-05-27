@@ -420,7 +420,7 @@ footer p {
   padding-bottom: 18px;
 }
 
-p.pista { font-size: 14px; padding-bottom: 12px; font-weight: 600; }
+p.pista { font-size: 14px; padding-bottom: 12px; font-weight: 600; letter-spacing: 0.2px; }
 p.pista:hover > a { color: var(--gz-color-negro); }
 
 a.svg-hover-discord {
