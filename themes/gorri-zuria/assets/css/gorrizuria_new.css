@@ -420,6 +420,9 @@ footer p {
   padding-bottom: 18px;
 }
 
+p.pista { font-size: 14px; padding-bottom: 12px; font-weight: 600; }
+p.pista:hover > a { color: var(--gz-color-negro); }
+
 a.svg-hover-discord {
   filter: brightness(0) saturate(100%) invert(37%) sepia(91%) saturate(649%) hue-rotate(203deg) brightness(94%) contrast(103%);
   transition: all 0.3s ease-in-out;
@@ -544,7 +547,7 @@ a.svg-hover-discord:hover, .svg-hover-discord:focus {
 
 .wave:nth-of-type(2) {
   bottom: 0;
-  animation: wave 18s linear reverse infinite;
+  animation: wave 18s linear reverse infinite;  
   opacity: 0.5;
 }
 
