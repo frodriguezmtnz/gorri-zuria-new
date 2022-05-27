@@ -12,3 +12,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [Author]
     name = "Felipe RM"
     email = "gorrizuriaathletic@gmail.com"
+
+# counter analytics: see https://counter.dev/setup.html
+[counter]
+enable = true
+username = "GorriZuria" # username counter.dev
