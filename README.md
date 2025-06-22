@@ -14,6 +14,11 @@ Fork this repo or clone it. :robot:
 
 ## Step 3
 
+1. Use and configure [Hugo](https://gohugo.io/getting-started/quick-start/#prerequisites).
+1. Execute the following command `hugo server --disableFastRender` in your terminal.
+
+## Step 4
+
 Configure Netlify with this repo, and tha's it. Magic happens!! :smile:
 
 ### Deployment with Netlify
